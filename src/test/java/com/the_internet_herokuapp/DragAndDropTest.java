@@ -15,7 +15,7 @@ public class DragAndDropTest {
     static void configure() {
         Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://the-internet.herokuapp.com";
-//        Configuration.headless = true;
+        Configuration.headless = true;
     }
 
     @Test
